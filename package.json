@@ -1,0 +1,33 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is my First React App",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kunalraj270/Learning-React.git"
+  },
+  "keywords": [],
+  "author": "Kunal Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kunalraj270/Learning-React/issues"
+  },
+  "homepage": "https://github.com/Kunalraj270/Learning-React#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "formik": "^2.4.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.2",
+    "react-shimmer": "^3.2.0"
+  }
+}

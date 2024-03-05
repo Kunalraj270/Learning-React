@@ -116,7 +116,7 @@
 -chrome extension
 
 # config driven ui
-
+- 
 # unique key id
  -key ={}
  -react say never use key as index
@@ -125,12 +125,19 @@
 # What is Emmet?
 -emmet is shorthand syntax to generate html and css code
 # Difference between a Library and Framework?
-● What is CDN? Why do we use it?
-● Why is React known as React?
-● What is crossorigin in script tag?
-● What is diference between React and ReactDOM
-● What is difference between react.development.js and react.production.js files via CDN?
-● What is async and defer? - see my Youtube video ;)
+- 
+# What is CDN? Why do we use it?
+- 
+# Why is React known as React?
+- 
+# What is crossorigin in script tag?
+- 
+# What is diference between React and ReactDOM
+- 
+# What is difference between react.development.js and react.production.js files via CDN?
+- 
+# What is async and defer? - see my Youtube video
+-
 
  # Theory Assignment: 2
 ● - What is `NPM`?
@@ -165,33 +172,33 @@ Topics
 
 # Assignment -4
 # Is JSX mandatory for React?
--
+- 
 # Is ES6 mandatory for React?
--
+- 
 # {TitleComponent} vs {<TitleComponent/>} vs
 {<TitleComponent></TitleComponent>} in JSX
--
+- 
 # How can I write comments in JSX?
--
+- 
 # What is <React.Fragment></React.Fragment> and <></> ?
--
+- 
 # What is Virtual DOM?
 -
 # What is Reconciliation in React?
--
+- 
 # What is React Fiber?
--
+- 
 # Why we need keys in React? When do we need keys in React?
--
+- 
 # Can we use index as keys in React?
--
+- 
 # What is props in React? Ways to
--
+- 
 # What is a Config Driven UI ? 
--
+- 
+
 # Assignment 5
 # Let Get Hooked
-# Assignment
 # What is the difference between Named Export, Default export and * as export?
   # Two types of Export/Import
 -Default Export/Import
@@ -209,11 +216,12 @@ Topics
 # What are React Hooks?
 -Normal javascript utility function
 # Why do we need a useState Hook?
--
+- useEffect will called everytime my component is rendered.
+- If no dependency array => useEffect is called everytime on every render
+- if depedency array is empty = [] => useEffect is called on intial render(just once)
+- if dependency array is [btnName] => calleverytime [btnName] is updated
 
--useState()
-
-
+-useState() 
 -whenever a state variable is update react re-render the components
 -React make dom operation super fast
 
@@ -231,6 +239,8 @@ Topics
   console.log("useEffect Called")
  },[]);
 
+ - if use empty dependencies array => it will run only one  after inital render
+
  ->It takes two argument
  - callback function
  - dependencies array
@@ -241,13 +251,56 @@ Topics
 
 # Chapter 06 - Exploring the world
   # What is a Microservice?
+  - 
   # What is Monolith architecture?
+  - 
   # What is the difference between Monolith and Microservice?
+  -
   # Why do we need a useEffect Hook?
+  - 
   # What is Optional Chaining?
+  - Optional Chaining is the operator to handled  when dealing with nested object while destructuring the object or function.
   # What is Shimmer UI?
+  - 
   # What is the difference between JS expression and JS statement
+  - 
   # What is Conditional Rendering, explain with a code example
+  - 
   # What is CORS?
+  - 
   # What is async and await?
-● What is the use of `const json = await data.json();` in getRestaurants()
+  - 
+  # What is the use of `const json = await data.json();` in getRestaurants()
+  -
+
+
+# Chapter 07 - Finding the Path
+ - for routing install react-router-dom package
+ - import {createBrowswerRouter , RouterProvider} from 'react-router-dom'
+ - RouterProvider provide the routing configuaration to our app
+ - rafce -> auto generate of code
+ - 
+ - for navagating page never use anchor tag becuase it refresh whole page  
+# Assignment
+# What are various ways to add images into our App? Explain with code examples
+- 
+# What would happen if we do console.log(useState())?
+- 
+# How will useEffect behave if we don't add a dependency array ?
+- 
+# What is SPA?
+- Single page application
+- one page just component is interchange
+# What is difference between Client Side Routing and Server Side Routing?
+- 
+
+
+# Many way to style React Component using CSS:
+ - normal css
+ - sass/scss
+ - styled components
+ - Bootstrap
+ - material UI
+ - Charkara UI
+ - Ant Desgin
+ - Tailwind css
